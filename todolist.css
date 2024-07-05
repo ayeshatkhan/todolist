@@ -1,0 +1,96 @@
+body {
+    font-family: 'Comic Sans MS', cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #f2c0cb; /* Pink background color */
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #ff1493; /* Pink color for the heading */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Adding a 3D effect */
+}
+
+.input-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 3D shadow effect */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ff1493; /* Pink button color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Comic Sans MS', cursive; /* Stylish cursive font */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 3D shadow effect */
+}
+
+button:hover {
+    background-color: #c71585; /* Darker pink on hover */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 3D shadow effect */
+}
+
+.checkbox {
+    margin-right: 10px;
+    color: #ff1493; /* Pink color for the checkbox */
+}
+
+.checkbox:checked + .task-text {
+    color: #ff1493; /* Pink color for the text when checked */
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #ff1493; /* Pink color for the strike-through */
+}
+
+.delete-btn {
+    margin-left: auto;
+    padding: 5px 10px;
+    background-color: #ff1493; /* Pink color for the delete button */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.delete-btn:hover {
+    background-color: #c71585; /* Darker pink on hover */
+}
